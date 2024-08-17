@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+.text {
+    font-family: "Rubik", sans-serif;
+    color: #40A3F8;
+    margin-left: 10%;
+}
+
+.head {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu a {
+    text-decoration: none;
+    padding: 20px;
+    color: black;
+}
+
+.menu {
+    margin-top: 25px;
+    margin-left: 30%;
+}
+
+.button a {
+    background-color: #40A3F8;
+    text-decoration: none;
+    color: aliceblue;
+    padding: 10px 25px;
+    border-radius: 5%;
+    font-size: 12px;
+     
+}
+
+.button {
+
+    margin-top: 25px;
+    margin-right: 10%;
+}
+
+/* head part 2 */
+
+.head2{
+    display: flex;
+}
+
+.photo img{
+    height: 100%;
+    width: 80%;
+}
+
+
+.boton{
+    display: flex;
+     
+}
+
+.boton a{
+    background-color: #40A3F8;
+    padding: 0px 10px;
+    color: #fdfdfd;
+    text-decoration: none;
+}
+     
+.boton2 a{
+    background-color: rgb(92, 92, 92);
+    color: black;
+    text-decoration: none;
+} 
+
+ 
+
+
+
+
+
+.doctor{
+    display: flex;
+}
+
+
+
+.circle{
+    display: flex;
+     
+}
+
+.circle img{
+    height: 15px;
+    width: 16px;
+    margin-top: 19px;
+}    
+.tax{
+    margin-left: 15px;
+}
+
