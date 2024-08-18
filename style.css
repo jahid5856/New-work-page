@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 
+.back{
+    background-color: rgb(238, 251, 255);
+     
+}
+
+
+
 .text {
     font-family: "Rubik", sans-serif;
     color: #40A3F8;
@@ -29,7 +36,7 @@
     padding: 10px 25px;
     border-radius: 5%;
     font-size: 12px;
-     
+
 }
 
 .button {
@@ -40,57 +47,128 @@
 
 /* head part 2 */
 
-.head2{
+
+
+
+
+.head2 {
     display: flex;
 }
 
-.photo img{
-    height: 100%;
-    width: 80%;
-}
-
-
-.boton{
-    display: flex;
+.Find{
+    margin-left: 10%;
+    margin-top: 15%;
      
 }
 
-.boton a{
+
+.Find img {
+    height: 90px;
+    width: 400px;
+     
+}
+
+.Find p {
+    padding: 10px 0;
+    color: rgb(122, 120, 120);
+}
+
+
+
+
+.photo img {
+    height: 90%;
+    width: 80%;
+    margin-left: 20%;
+    margin-top: 10%;
+}
+
+
+.boton {
+    display: flex;
+
+}
+
+.boton a {
     background-color: #40A3F8;
     padding: 0px 10px;
     color: #fdfdfd;
     text-decoration: none;
 }
-     
-.boton2 a{
+
+.boton2 a {
     background-color: rgb(92, 92, 92);
     color: black;
     text-decoration: none;
-} 
+}
+
+
+
+
+
+
 
  
 
 
 
+.circle {
+    display: flex;
+
+}
+
+.circle img {
+    height: 15px;
+    width: 16px;
+    margin-top: 19px;
+}
+
+.tax {
+    margin-left: 15px;
+}
 
 
-.doctor{
+/* 3 eazy step */
+
+
+.easy{
     display: flex;
 }
 
 
-
-.circle{
+.doctor {
     display: flex;
      
 }
 
-.circle img{
-    height: 15px;
-    width: 16px;
-    margin-top: 19px;
-}    
-.tax{
-    margin-left: 15px;
+.doc-text{
+    margin-top: 8%;
+    margin-left: 5%;
+}
+
+.Doctors img{
+    width: 650px;
+    height: 500px;
+}
+
+
+
+/* 3 pic icon */
+
+.icon{
+    display: flex;
+}
+
+.service{
+    justify-content: right;
+    display: flex;
+}
+
+
+
+/* doc 4 pic */
+
+.dot{
+    display: flex;
 }
 
