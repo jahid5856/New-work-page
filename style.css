@@ -1,14 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 
-.back{
+
+.back {
     background-color: rgb(238, 251, 255);
-     
+
 }
 
 
 
 .text {
-    font-family: "Rubik", sans-serif;
+    font-family: "Roboto", sans-serif;
     color: #40A3F8;
     margin-left: 10%;
 }
@@ -55,17 +56,17 @@
     display: flex;
 }
 
-.Find{
+.Find {
     margin-left: 10%;
     margin-top: 15%;
-     
+
 }
 
 
 .Find img {
     height: 90px;
     width: 400px;
-     
+
 }
 
 .Find p {
@@ -108,7 +109,7 @@
 
 
 
- 
+
 
 
 
@@ -131,22 +132,44 @@
 /* 3 eazy step */
 
 
-.easy{
+.tx{
+    font-family: "Roboto", sans-serif;
+}
+
+.easy {
+    padding: 70px 0px;
+}
+
+
+.easy h2 {
+    text-align: center;
+    font-size: 30px;
+    padding: 50px;
+}
+
+.easys {
+    justify-content: space-around;
     display: flex;
 }
 
+.fast {
+    width: 350px;
+    height: 300px;
+    text-align: center;
+    background-color: #ffffff;
+}
 
 .doctor {
     display: flex;
-     
+
 }
 
-.doc-text{
+.doc-text {
     margin-top: 8%;
     margin-left: 5%;
 }
 
-.Doctors img{
+.Doctors img {
     width: 650px;
     height: 500px;
 }
@@ -154,21 +177,114 @@
 
 
 /* 3 pic icon */
-
-.icon{
+.icon {
     display: flex;
 }
 
-.service{
-    justify-content: right;
-    display: flex;
+
+.service h2 {
+    text-align: center;
+    font-size: 45px;
+    padding-bottom: 0px;
 }
 
+.service p {
+    text-align: center;
+    padding-bottom: 20px;
+
+}
+
+
+
+.joins {
+    display: flex;
+    justify-content: space-around;
+}
+
+.Join {
+    width: 200px;
+    height: 250px;
+    text-align: center;
+    background-color: #f1fbff;
+}
+
+
+
+
+
+
+
+
+
+.chat h5 {
+    margin-left: 10%;
+}
 
 
 /* doc 4 pic */
 
-.dot{
+.dot {
+    display: flex;
+
+}
+
+.dox {
+    text-align: center;
+    justify-content: space-around;
+}
+
+.doct {}
+
+
+/* <!-- mobile play stor part --> */
+
+
+.play {
     display: flex;
 }
 
+.plays {
+    display: flex;
+
+}
+
+.plays img {
+    height: 30px;
+    width: 90px;
+}
+
+.app img {
+    margin-left: 10%;
+    height: 30px;
+    width: 80px;
+}
+
+.stor {
+    margin-top: 15%;
+}
+
+
+/* sister part */
+
+
+.sister img {
+    margin-left: 7%;
+    height: 600px;
+    width: 1400px;
+}
+
+/* footer part */
+
+.fut{
+    display: flex;
+}
+
+.fuut{
+    display: flex;
+}
+
+.tree{
+    display: flex;
+    margin-left: 70%;
+    justify-content: space-between;
+}
