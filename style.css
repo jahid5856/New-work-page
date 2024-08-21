@@ -68,10 +68,10 @@
 }
 
 
-.Find img{
+.Find img {
     height: 90px;
     width: 400px;
-    
+
 }
 
 .Find p {
@@ -80,16 +80,16 @@
 }
 
 
-.bottss{
+.bottss {
     background-color: #ffffff;
     color: #00bfff;
     width: 180px;
     height: 30px;
-     
+
 }
 
 .photo img {
-    height: 90%;
+    height: 89%;
     width: 80%;
     margin-left: 40%;
     margin-top: 10%;
@@ -180,6 +180,10 @@
     margin-left: 10%;
 }
 
+.dox h1 {
+    font-size: 250%;
+}
+
 .Doctors img {
     width: 650px;
     height: 550px;
@@ -197,14 +201,14 @@
 .service h2 {
     text-align: center;
     font-size: 35px;
-     margin-top: 5%;
+    margin-top: 5%;
 }
 
 .service p {
     text-align: center;
     padding-bottom: 25px;
- 
- padding: 10px 40px;
+
+    padding: 10px 40px;
 
 }
 
@@ -222,14 +226,14 @@
     height: 300px;
     text-align: center;
     background-color: #f1fbff;
-     
+
 }
 
-.Join img{
+.Join img {
     margin-top: 15%;
 }
 
- 
+
 
 
 
@@ -245,25 +249,25 @@
 .dot {
     display: flex;
     max-width: 10px;
-    
+
 }
- 
-.dag{
-     
+
+.dag {
+
     height: 2px;
     width: 60px;
     /* color: #40A3F8; */
-    background-color:  #47C2FF;
+    background-color: #47C2FF;
     mar
 }
 
-.dox a{
-     margin-left: 10%;
+.dox a {
+    margin-left: 10%;
 }
 
 .dox {
     text-align: center;
-     
+
 }
 
 .doct {
@@ -272,16 +276,14 @@
     height: 500px;
     width: 150px;
     margin-left: 150px;
-}  
+}
 
 .doct img {
     height: 500px;
     width: 400px;
 }
 
-.button{
-
-}
+.button {}
 
 /* <!-- mobile play stor part --> */
 
@@ -307,9 +309,12 @@
 }
 
 .stor {
-    margin-top: 15%;
+    margin-top: 10%;
 }
 
+.stor h2 {
+    font-size: 250%;
+}
 
 /* sister part */
 
@@ -325,107 +330,106 @@
 .fut {
     display: flex;
     margin-left: 9%;
-      margin-bottom: 6%;
+    margin-bottom: 6%;
 }
 
 .fuut {
     display: flex;
 }
- 
 
-.latest{
+
+.latest {
     display: flex;
     margin-left: 8%;
     padding: 0px 50px;
 }
 
-.name h5{
+.name h5 {
     margin-left: 9%;
 }
 
-.About h5{
+.About h5 {
     margin-left: 9%;
 }
 
 
-.name a{
+.name a {
     display: flex;
     text-decoration: none;
     padding: 10px;
     color: black;
 }
 
-.About a{
+.About a {
     display: flex;
     text-decoration: none;
     padding: 10px;
     color: black;
-     
-     
+
+
 }
 
-.About{
+.About {
     margin-left: 20%;
 }
 
-.sub{
-     width: 100%;
-     height: 30%;
-     padding-left: 20%;
+.sub {
+    width: 100%;
+    height: 30%;
+    padding-left: 20%;
 }
 
-.sub h5{
+.sub h5 {
     height: 10%;
     width: 500%;
 }
 
-.sub p{
+.sub p {
     width: 500%;
 }
 
-.botts{
+.botts {
     background-color: #40A3F8;
     color: #f1fbff;
     width: 180px;
     height: 30px;
 }
 
-.tip{
-     
-}
+.tip {}
 
-.bots{
+.bots {
 
-padding-bottom: 10%;
+    padding-bottom: 10%;
 
 }
 
-.heal{
+.heal {
     margin-top: 10px;
 }
 
 
-.name{
-     margin-left: 10%;
+.name {
+    margin-left: 10%;
 }
 
-.tree p{
+.tree p {
     display: flex;
     margin-left: 100%;
     text-align: justify;
 }
 
-.under a{
+.under a {
     text-decoration: none;
     padding: 20px;
     color: black;
 }
 
-.under{
+.under {
     margin-top: 10px;
     margin-left: 45%;
 }
-.fuut p{
+
+.fuut p {
     margin-left: 9%;
     width: 20%;
 }
