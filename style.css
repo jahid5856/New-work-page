@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 
+.size {
+    max-width: 1800%;
+    background-color: rgb(255, 255, 255);
+}
+
 
 .back {
     background-color: rgb(238, 251, 255);
@@ -63,10 +68,10 @@
 }
 
 
-.Find img {
+.Find img{
     height: 90px;
     width: 400px;
-
+    
 }
 
 .Find p {
@@ -75,12 +80,18 @@
 }
 
 
-
+.bottss{
+    background-color: #ffffff;
+    color: #00bfff;
+    width: 180px;
+    height: 30px;
+     
+}
 
 .photo img {
     height: 90%;
     width: 80%;
-    margin-left: 20%;
+    margin-left: 40%;
     margin-top: 10%;
 }
 
@@ -132,7 +143,7 @@
 /* 3 eazy step */
 
 
-.tx{
+.tx {
     font-family: "Roboto", sans-serif;
 }
 
@@ -166,12 +177,13 @@
 
 .doc-text {
     margin-top: 8%;
-    margin-left: 5%;
+    margin-left: 10%;
 }
 
 .Doctors img {
     width: 650px;
-    height: 500px;
+    height: 550px;
+    margin-left: 10%;
 }
 
 
@@ -184,13 +196,15 @@
 
 .service h2 {
     text-align: center;
-    font-size: 45px;
-    padding-bottom: 0px;
+    font-size: 35px;
+     margin-top: 5%;
 }
 
 .service p {
     text-align: center;
-    padding-bottom: 20px;
+    padding-bottom: 25px;
+ 
+ padding: 10px 40px;
 
 }
 
@@ -199,18 +213,23 @@
 .joins {
     display: flex;
     justify-content: space-around;
+    margin-bottom: 10%;
+    margin-top: 5%;
 }
 
 .Join {
-    width: 200px;
-    height: 250px;
+    width: 300px;
+    height: 300px;
     text-align: center;
     background-color: #f1fbff;
+     
 }
 
+.Join img{
+    margin-top: 15%;
+}
 
-
-
+ 
 
 
 
@@ -225,16 +244,44 @@
 
 .dot {
     display: flex;
+    max-width: 10px;
+    
+}
+ 
+.dag{
+     
+    height: 2px;
+    width: 60px;
+    /* color: #40A3F8; */
+    background-color:  #47C2FF;
+    mar
+}
 
+.dox a{
+     margin-left: 10%;
 }
 
 .dox {
     text-align: center;
-    justify-content: space-around;
+     
 }
 
-.doct {}
+.doct {
 
+    /* display: flex; */
+    height: 500px;
+    width: 150px;
+    margin-left: 150px;
+}  
+
+.doct img {
+    height: 500px;
+    width: 400px;
+}
+
+.button{
+
+}
 
 /* <!-- mobile play stor part --> */
 
@@ -275,16 +322,114 @@
 
 /* footer part */
 
-.fut{
+.fut {
     display: flex;
+    margin-left: 9%;
+      margin-bottom: 6%;
 }
 
-.fuut{
+.fuut {
     display: flex;
+}
+ 
+
+.latest{
+    display: flex;
+    margin-left: 8%;
+    padding: 0px 50px;
 }
 
-.tree{
-    display: flex;
-    margin-left: 70%;
-    justify-content: space-between;
+.name h5{
+    margin-left: 9%;
 }
+
+.About h5{
+    margin-left: 9%;
+}
+
+
+.name a{
+    display: flex;
+    text-decoration: none;
+    padding: 10px;
+    color: black;
+}
+
+.About a{
+    display: flex;
+    text-decoration: none;
+    padding: 10px;
+    color: black;
+     
+     
+}
+
+.About{
+    margin-left: 20%;
+}
+
+.sub{
+     width: 100%;
+     height: 30%;
+     padding-left: 20%;
+}
+
+.sub h5{
+    height: 10%;
+    width: 500%;
+}
+
+.sub p{
+    width: 500%;
+}
+
+.botts{
+    background-color: #40A3F8;
+    color: #f1fbff;
+    width: 180px;
+    height: 30px;
+}
+
+.tip{
+     
+}
+
+.bots{
+
+padding-bottom: 10%;
+
+}
+
+.heal{
+    margin-top: 10px;
+}
+
+
+.name{
+     margin-left: 10%;
+}
+
+.tree p{
+    display: flex;
+    margin-left: 100%;
+    text-align: justify;
+}
+
+.under a{
+    text-decoration: none;
+    padding: 20px;
+    color: black;
+}
+
+.under{
+    margin-top: 10px;
+    margin-left: 45%;
+}
+.fuut p{
+    margin-left: 9%;
+    width: 20%;
+}
+
+/* .tra p{
+    display: flex;
+} */
